@@ -4,7 +4,7 @@ public class Ticket {
 	private int km;
 	private int age;
 	
-	Ticket(int km, int age) throws Exception{
+	public Ticket(int km, int age) throws Exception{
 		setKm(km);
 		setAge(age);
 	}
